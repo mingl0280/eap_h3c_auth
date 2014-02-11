@@ -1,0 +1,70 @@
+正在比较文件 Authbackup.cpp 和 AUTH_XL_2.CPP
+***** Authbackup.cpp
+        i = 23;
+        response[i++] = 0x15;      // 上传IP地址
+        response[i++] = 0x04;      //
+        memcpy(response+i, ip, 4);//
+        i += 4;              //
+        response[i++] = 0x06;          // 携带版本号
+***** AUTH_XL_2.CPP
+        i = 23;
+        //response[i++] = 0x15;      // 上传IP地址
+        //response[i++] = 0x04;      //
+        //memcpy(response+i, ip, 4);//
+        //i += 4;              //
+        response[i++] = 0x06;          // 携带版本号
+*****
+
+***** Authbackup.cpp
+        // 补填前面留空的两处Length
+        eaplen = htons(i-18);
+        memcpy(response+16, &eaplen, sizeof(eaplen));
+***** AUTH_XL_2.CPP
+        // 补填前面留空的两处Length
+        eaplen = htons(usernamelen + 0x25);
+        memcpy(response+16, &eaplen, sizeof(eaplen));
+*****
+
+***** Authbackup.cpp
+        // 发送
+        pcap_sendpacket(adhandle, response, i);
+        return;
+***** AUTH_XL_2.CPP
+        // 发送
+        pcap_sendpacket(adhandle, response, 55+usernamelen);
+        return;
+*****
+
+***** Authbackup.cpp
+}
+/*
+void FillMD5Area(uint8_t digest[], uint8_t id, const char passwd[], const uint8_t srcMD5[])
+***** AUTH_XL_2.CPP
+}
+/*生成MD5数据不可用
+void FillMD5Area(uint8_t digest[], uint8_t id, const char passwd[], const uint8_t srcMD5[])
+*****
+
+***** Authbackup.cpp
+{
+        if (username == NULL || passwd == NULL){cout<<"Username or password does not exist.quit."<<endl;EXIT(0);}
+        //uint8_t
+***** AUTH_XL_2.CPP
+{
+        if (username == NULL || passwd == NULL){cout<<"Username or password does not exist.quit."<<endl;EXIT(0);}//判定用户名和密码不为空
+        //uint8_t
+*****
+
+***** Authbackup.cpp
+        memcpy(response+24, passwd, passwordlen);
+        memcpy(response+24+passwordlen+1, username, usernamelen);//?????
+        // }
+        pcap_sendpacket(handle, response, packetlen);
+***** AUTH_XL_2.CPP
+        memcpy(response+24, passwd, passwordlen);
+        memcpy(response+24+passwordlen+1, username, usernamelen);//?????
+        // }
+
+        pcap_sendpacket(handle, response, packetlen);
+*****
+

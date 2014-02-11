@@ -1,0 +1,27 @@
+﻿生成启动时间为 2013/12/23 18:03:52。
+     1>项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\EAP_H3C_Auth.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Auth.cpp
+         Auth.cpp
+     1>Auth.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Auth.cpp(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Auth.cpp(370): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Auth.cpp(394): error C3861: “MALLOC”: 找不到标识符
+     1>Auth.cpp(398): error C3861: “FREE”: 找不到标识符
+     1>Auth.cpp(399): error C3861: “MALLOC”: 找不到标识符
+     1>Auth.cpp(408): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Auth.cpp(409): error C2660: “matchName”: 函数不接受 1 个参数
+     1>Auth.cpp(411): error C3861: “IPReleaseAddress”: 找不到标识符
+     1>Auth.cpp(412): error C3861: “IPRenewAddress”: 找不到标识符
+     1>Auth.cpp(610): warning C4018: “<”: 有符号/无符号不匹配
+     1>已完成生成项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.22

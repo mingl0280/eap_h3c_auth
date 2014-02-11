@@ -1,0 +1,30 @@
+﻿生成启动时间为 2013/10/21 17:28:04。
+     1>项目“F:\C++\EAP_H3C_Auth\MFC_Auth_GUI\MFC_Auth_GUI.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\MFC_Auth_GUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\MFC_Auth_GUI.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MFC_Auth_GUI.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFC_Auth_GUI.cpp MFC_Auth_GUIDlg.cpp
+         MFC_Auth_GUI.cpp
+         MFC_Auth_GUIDlg.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\MFC_Auth_GUI.res" MFC_Auth_GUI.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\EAP_H3C_Auth\Release\MFC_Auth_GUI.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\MFC_Auth_GUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\EAP_H3C_Auth\Release\MFC_Auth_GUI.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\EAP_H3C_Auth\Release\MFC_Auth_GUI.lib" /MACHINE:X86 Release\MFC_Auth_GUI.res
+         Release\MFC_Auth_GUI.obj
+         Release\MFC_Auth_GUIDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         MFC_Auth_GUI.vcxproj -> F:\C++\EAP_H3C_Auth\Release\MFC_Auth_GUI.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++\EAP_H3C_Auth\Release\MFC_Auth_GUI.exe;#1" /manifest Release\MFC_Auth_GUI.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\MFC_Auth_GUI.unsuccessfulbuild”。
+         正在对“Release\MFC_Auth_GUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\EAP_H3C_Auth\MFC_Auth_GUI\MFC_Auth_GUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.37

@@ -1,0 +1,8 @@
+﻿生成启动时间为 2013/9/25 18:06:17。
+     1>项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(293,5): error MSB8010: 指定的平台工具集(v90)需要 Visual Studio 2008。请确保在计算机上安装 Visual Studio 2008。
+     1>已完成生成项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.32

@@ -1,0 +1,33 @@
+# Project: eap
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ../EAP_H3C_Auth/Auth.o ../EAP_H3C_Auth/ip.o $(RES)
+LINKOBJ  = ../EAP_H3C_Auth/Auth.o ../EAP_H3C_Auth/ip.o $(RES)
+LIBS =  -L"D:/Dev-Cpp/lib" -L"F:/C++/EAP_H3C_Auth/EAP_H3C_Auth/Lib"  
+INCS =  -I"D:/Dev-Cpp/include"  -I"F:/C++/EAP_H3C_Auth/EAP_H3C_Auth/Include" 
+CXXINCS =  -I"D:/Dev-Cpp/include"  -I"F:/C++/EAP_H3C_Auth/EAP_H3C_Auth/Include" 
+BIN  = eap.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before eap.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "eap.exe" $(LIBS)
+
+../EAP_H3C_Auth/Auth.o: ../EAP_H3C_Auth/Auth.cpp
+	$(CPP) -c ../EAP_H3C_Auth/Auth.cpp -o ../EAP_H3C_Auth/Auth.o $(CXXFLAGS)
+
+../EAP_H3C_Auth/ip.o: ../EAP_H3C_Auth/ip.cpp
+	$(CPP) -c ../EAP_H3C_Auth/ip.cpp -o ../EAP_H3C_Auth/ip.o $(CXXFLAGS)
