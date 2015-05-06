@@ -6,7 +6,12 @@ EAP_AUTH_GUI
 </name>
 </assembly>
 <members>
-<member name="P:EAP_AUTH_GUI.My.Resources.Resources.ResourceManager">
+<member name="M:EAP_AUTH_GUI.ModuleFunctions.UpdateForm2(System.Object,System.Diagnostics.DataReceivedEventArgs)">
+	<summary>
+ 窗体2更新函数
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EAP_AUTH_GUI.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

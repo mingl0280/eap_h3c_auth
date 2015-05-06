@@ -19,7 +19,7 @@
 
 #define DPRINTF printf
 #define sleep Sleep
-#define SIOCGIFNAME0x8910
+#define SIOCGIFNAME 0x8910
 
 using namespace std;
 

@@ -1,27 +1,43 @@
-﻿生成启动时间为 2013/12/23 18:03:52。
-     1>项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Release\EAP_H3C_Auth.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Auth.cpp
+﻿生成启动时间为 2015/3/24 10:25:31。
+     1>项目“D:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Auth.cpp ip.cpp
          Auth.cpp
-     1>Auth.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>Auth.cpp(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>Auth.cpp(370): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>Auth.cpp(394): error C3861: “MALLOC”: 找不到标识符
-     1>Auth.cpp(398): error C3861: “FREE”: 找不到标识符
-     1>Auth.cpp(399): error C3861: “MALLOC”: 找不到标识符
-     1>Auth.cpp(408): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>Auth.cpp(409): error C2660: “matchName”: 函数不接受 1 个参数
-     1>Auth.cpp(411): error C3861: “IPReleaseAddress”: 找不到标识符
-     1>Auth.cpp(412): error C3861: “IPRenewAddress”: 找不到标识符
-     1>Auth.cpp(610): warning C4018: “<”: 有符号/无符号不匹配
-     1>已完成生成项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(build 个目标)的操作 - 失败。
+     1>Auth.cpp(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Auth.cpp(219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Auth.cpp(316): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>Auth.cpp(394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>Auth.cpp(414): warning C4018: “<”: 有符号/无符号不匹配
+     1>Auth.cpp(441): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>Auth.cpp(481): warning C4172: 返回局部变量或临时变量的地址
+     1>Auth.cpp(664): warning C4018: “<”: 有符号/无符号不匹配
+     1>Auth.cpp(690): warning C4101: “fcode”: 未引用的局部变量
+     1>Auth.cpp(689): warning C4101: “FilterStr”: 未引用的局部变量
+     1>Auth.cpp(745): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Auth.cpp(940): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>Auth.cpp(942): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>Auth.cpp(937): warning C4101: “dName”: 未引用的局部变量
+         ip.cpp
+       ResourceCompile:
+         E:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\MainForm.res" MainForm.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\EAP_H3C_Auth\Release\EAP_H3C_Auth.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++\EAP_H3C_Auth\Release\EAP_H3C_Auth.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\EAP_H3C_Auth\Release\EAP_H3C_Auth.lib" /MACHINE:X86 /SAFESEH Release\MainForm.res
+         Release\Auth.obj
+         Release\ip.obj
+         Lib\wpcap.lib
+         正在生成代码
+         已完成代码的生成
+         EAP_H3C_Auth.vcxproj -> D:\C++\EAP_H3C_Auth\Release\EAP_H3C_Auth.exe
+     1>已完成生成项目“D:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(Rebuild 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:05.22
+已用时间 00:00:02.78

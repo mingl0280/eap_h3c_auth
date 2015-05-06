@@ -9,15 +9,17 @@
 * 该函数将不断循环，应答802.1X认证会话，直到遇到错误后才退出
 */
 
+using namespace std;
+
 int main(int argc,char *argv[])
 {
 	bool isLogin = true;
 	const char *DeviceName;
 	string arguments[5];
 
-	if (argc > 5){cerr<<"错误的参数设置"<<endl;EXIT(0);}//参数数量基本判定
+	if (argc > 5){ cerr << "错误的参数设置" << endl; system("pause"); EXIT(0); }//参数数量基本判定
 	for (int i=0;i<argc;i++)arguments[i]=argv[i];//转换参数列表到string数组
-
+	
 	/*
 	参数列表：
 	无参数
@@ -47,6 +49,7 @@ int main(int argc,char *argv[])
 	}
 	else
 	{
+
 		if(argc == 1) //没有参数时
 		{
 			GetDeviceList(true);
@@ -85,6 +88,7 @@ int main(int argc,char *argv[])
 							cout<<"下线中，请稍候"<<endl;
 							SendLogoffPkt(dname.c_str());	//下线
 							Sleep(1000);					//避免未下线完成前刷新IP导致错误
+							//Stop Monitor Service.
 							cout<<"正在刷新IP地址..."<<endl;
 							//RenewSpecifiedDevice(DeviceName);
 							system("ipconfig -release > nul");
@@ -102,6 +106,7 @@ int main(int argc,char *argv[])
 			}
 		}
 	}
+	NeedPause = true;
 	cout<<endl;
 	if (NeedPause)system("pause");
 	return 0;
@@ -307,7 +312,25 @@ START_AUTHENTICATION:
 				system("ipconfig /renew >nul");
 				system("ipconfig /renew6 >nul");
 				cout<<"认证过程完成！"<<endl;
-				break;
+				ofstream ofs("eap_online_status", ios::trunc);
+				FILE *bin_out = fopen("eap_pkt_data","wb+");
+				ofs << DeviceName <<" "<< UserName << endl;
+				ofs.close();
+				for (int i = 0; i < sizeof(captured) / sizeof(uint8_t); i++)
+				{
+					fwrite(&captured[i], sizeof(captured), sizeof(uint8_t), bin_out);
+				}
+				fclose(bin_out);
+				//system("net start EAP_ONLINE_SERVICE");
+				/*
+				FILE *bin_out_2 = fopen("eap_ip_data", "wb+");
+				for (int i = 0; i < sizeof(ip) / sizeof(uint8_t); i++)
+				{
+					fwrite(&ip[i], sizeof(ip), sizeof(uint8_t), bin_out_2);
+				}
+				fclose(bin_out_2);
+				//Start Monitor Service*/
+				//break;
 			}
 			else
 			{
@@ -318,7 +341,6 @@ START_AUTHENTICATION:
 	}
 	return (0);
 }
-
 
 static void GetMacFromDevice(uint8_t mac[6], const char *devicename)
 {
@@ -711,8 +733,6 @@ static void XOR(uint8_t data[], unsigned dlen, const char key[], unsigned klen)
 	for (i=dlen-1,j=0;  j<dlen;  i--,j++)
 		data[i] ^= key[j%klen];
 }
-
-
 
 static void FillClientVersionArea(uint8_t area[20])
 {

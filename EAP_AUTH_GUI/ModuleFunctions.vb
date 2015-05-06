@@ -14,42 +14,8 @@ Module ModuleFunctions
     '启动认证字串
     Public Delegate Function vDelegate(ByRef s As String)
     Public sArg As String = ""
-    '此函数获取控制台输出有误，暂不接入管道。
-    Public Sub BeginAuth()
-        Dim AuthProcess As Process = New Process()
-        Dim sConsoleRead As String = ""
-        AuthProcess.StartInfo.FileName = "EAP_H3C_AUTH.exe"
-        'AuthProcess.StartInfo.UseShellExecute = False
-        'AuthProcess.StartInfo.CreateNoWindow = True
-        'AuthProcess.StartInfo.RedirectStandardInput = True
-        'AuthProcess.StartInfo.RedirectStandardOutput = True
-        'AuthProcess.StartInfo.RedirectStandardError = True
-        AuthProcess.StartInfo.Arguments = sArg
 
-        AuthProcess.Start()
-
-        'Dim AInput As StreamWriter = AuthProcess.StandardInput
-        'Dim AOutput As StreamReader = AuthProcess.StandardOutput
-        'Dim AErr As StreamReader = AuthProcess.StandardError
-
-
-        'While AuthProcess.HasExited = False
-        'sConsoleRead = AOutput.ReadLine + vbCrLf
-        'Form2.Invoke(New vDelegate(AddressOf SendInfo), sConsoleRead)
-        'End While
-
-        'While 1
-        ' sConsoleRead = AOutput.ReadLine()
-        'While Form2.IsDisposed <> False
-        'Form2.Invoke(New vDelegate(AddressOf SendInfo), sConsoleRead)
-        'Thread.Sleep(1000)
-        'End While
-        'End While
-    End Sub
-    '窗体2更新函数
-    Private Function SendInfo(ByRef s As String)
-        Form2.TextBox1.Text += s + vbCrLf
-    End Function
+  
     'ini读取函数
     Public Function readini(ByVal key As String, ByRef dststr As String) As String
         Dim isex As Integer
@@ -114,7 +80,7 @@ Module ModuleFunctions
         End If
     End Function
     '写入保存的用户名与密码
-    Public Function SaveUserInfo(ByVal User As String, ByVal pass As String, ByVal DevName As String,ByVal RemPass As Boolean,ByVal ShowPass as Boolean)
+    Public Function SaveUserInfo(ByVal User As String, ByVal pass As String, ByVal DevName As String, ByVal RemPass As Boolean, ByVal ShowPass As Boolean)
         Dim SecurePass As String = Base64Encode(pass)
         writeini("Username", User)
         '记住密码

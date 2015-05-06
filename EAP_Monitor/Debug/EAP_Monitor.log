@@ -1,0 +1,29 @@
+﻿生成启动时间为 2015/3/24 10:24:20。
+     1>项目“D:\C++\EAP_H3C_Auth\EAP_Monitor\EAP_Monitor.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\EAP_H3C_Auth\ip.cpp EAP_Monitor.cpp
+         EAP_Monitor.cpp
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(164): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(157): warning C4101: “retcode”: 未引用的局部变量
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(440): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(561): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\c++\eap_h3c_auth\eap_monitor\eap_monitor.cpp(627): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         ip.cpp
+         正在生成代码...
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\EAP_H3C_Auth\Debug\EAP_Monitor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++\EAP_H3C_Auth\Debug\EAP_Monitor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\EAP_H3C_Auth\Debug\EAP_Monitor.lib" /MACHINE:X86 Debug\ip.obj
+         Debug\EAP_Monitor.obj
+         EAP_Monitor.vcxproj -> D:\C++\EAP_H3C_Auth\Debug\EAP_Monitor.exe
+     1>已完成生成项目“D:\C++\EAP_H3C_Auth\EAP_Monitor\EAP_Monitor.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.35

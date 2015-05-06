@@ -1,0 +1,11 @@
+D:\C++\EAP_H3C_Auth\NewGUI\bin\Release\NewGUI.exe.config
+D:\C++\EAP_H3C_Auth\NewGUI\bin\Release\NewGUI.exe
+D:\C++\EAP_H3C_Auth\NewGUI\bin\Release\NewGUI.pdb
+D:\C++\EAP_H3C_Auth\NewGUI\bin\Release\NewGUI.xml
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.Form1.resources
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.FrmAuth.resources
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.Resources.resources
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.vbproj.GenerateResource.Cache
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.exe
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.xml
+D:\C++\EAP_H3C_Auth\NewGUI\obj\Release\NewGUI.pdb

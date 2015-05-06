@@ -1,46 +1,38 @@
-﻿生成启动时间为 2013/12/23 19:53:46。
-     1>项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Debug\EAP_H3C_Auth.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Auth.cpp
+﻿生成启动时间为 2015/3/31 18:19:52。
+     1>项目“D:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Auth.cpp
          Auth.cpp
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(372): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(392): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(419): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(459): warning C4172: 返回局部变量或临时变量的地址
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(642): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(668): warning C4101: “fcode”: 未引用的局部变量
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(667): warning C4101: “FilterStr”: 未引用的局部变量
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(723): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(918): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(920): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
-     1>f:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(915): warning C4101: “dName”: 未引用的局部变量
-       ResourceCompile:
-         所有输出均为最新。
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(316): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(414): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(441): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(481): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(664): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(690): warning C4101: “fcode”: 未引用的局部变量
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(689): warning C4101: “FilterStr”: 未引用的局部变量
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(743): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(938): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(940): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual stuio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\c++\eap_h3c_auth\eap_h3c_auth\auth.cpp(935): warning C4101: “dName”: 未引用的局部变量
        Link:
-         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe" /NOLOGO wpcap.lib Packet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EAP_H3C_Auth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.lib" /MACHINE:X86 Debug\MainForm.res
+         E:\Program Files (x86)\Microsoft Visual Stuio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe" /INCREMENTAL /NOLOGO wpcap.lib Packet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.lib" /MACHINE:X86 Debug\MainForm.res
          Debug\Auth.obj
          Debug\ip.obj
          Lib\wpcap.lib
-         LINK : 没有找到 F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe 或上一个增量链接没有生成它；正在执行完全链接
-         EAP_H3C_Auth.vcxproj -> F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe
-       Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe;#1" /manifest Debug\EAP_H3C_Auth.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         正在删除文件“Debug\EAP_H3C_Auth.unsuccessfulbuild”。
-         正在对“Debug\EAP_H3C_Auth.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“F:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(build 个目标)的操作。
+         EAP_H3C_Auth.vcxproj -> D:\C++\EAP_H3C_Auth\Debug\EAP_H3C_Auth.exe
+     1>已完成生成项目“D:\C++\EAP_H3C_Auth\EAP_H3C_Auth\EAP_H3C_Auth.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.27
+已用时间 00:00:05.10
